@@ -37,5 +37,9 @@
   },
   "Message": {
     "dataSource": null
+  },
+  "SudokuPuzzle": {
+    "dataSource": "db",
+    "public": true
   }
 }

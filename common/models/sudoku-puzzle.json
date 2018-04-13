@@ -1,0 +1,34 @@
+{
+  "name": "SudokuPuzzle",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "given": {
+      "type": "string",
+      "required": true
+    },
+    "solution": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "number"
+    },
+    "invariant": {
+      "type": "string"
+    },
+    "checked": {
+      "type": "boolean",
+      "default": false
+    },
+    "solutions_were_found": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
